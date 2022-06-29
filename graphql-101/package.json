@@ -1,0 +1,19 @@
+{
+  "name": "graphql-101",
+  "version": "1.0.0",
+  "description": "GraphQL Poc",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "Om Balapure",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "nodemon": "^2.0.18"
+  }
+}

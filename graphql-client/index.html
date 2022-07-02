@@ -8,11 +8,18 @@
   </head>
   <body>
     <h1>GraphQL Client</h1>
-    <select name="continent" id="continent-select" onchange="getCountries(event)">
+    <!-- Country code options -->
+    <select
+      name="continent"
+      id="continent-select"
+      onchange="getCountries(event)"
+    >
       <option>Select a continent</option>
     </select>
+    <!-- List of countries -->
     <div id="country-list"></div>
-    <p id="warning" style="color: red;"></p>
+    <!-- Warning message -->
+    <p id="warning" style="color: red"></p>
     <script src="app.js" defer></script>
   </body>
 </html>

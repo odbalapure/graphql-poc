@@ -38,6 +38,7 @@ async function getCountries(event) {
   const countries = await getContinentCountries(code);
 
   countryList.innerHTML = "";
+  warning.innerHTML = "";
   countries.forEach(country => {
     const element = document.createElement("div");
     element.innerText = country.name;
